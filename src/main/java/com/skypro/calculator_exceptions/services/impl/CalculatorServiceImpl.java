@@ -1,9 +1,10 @@
-package com.skypro.calculator_exceptions.services;
+package com.skypro.calculator_exceptions.services.impl;
 
+import com.skypro.calculator_exceptions.services.CalculatorService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CalculatorServiceImpl implements CalculatorService{
+public class CalculatorServiceImpl implements CalculatorService {
     @Override
     public int plus(int num1, int num2) {
         return num1 + num2;
